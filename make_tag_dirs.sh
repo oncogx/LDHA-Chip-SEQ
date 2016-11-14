@@ -1,5 +1,6 @@
 #!/bin/sh
-#!/bin/sh
+# NOTE this script was not used to make the tag directories,
+# batchMakeTagDirectory was
 # This script goes through each Chip-SEQ experiment and creates tag dirs for HOMER
 # PREREQUISITE: HOMER is installed on this machine and in the directory that 
 # this script is being ran from
