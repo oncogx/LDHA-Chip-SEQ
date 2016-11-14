@@ -1,0 +1,15 @@
+/home/mamaher/tag_dirs/JA2	/mnt/oncogxA/Projects/CHENCS/bam/JA2.sorted.bam
+/home/mamaher/tag_dirs/JA3	/mnt/oncogxA/Projects/CHENCS/bam/JA3.sorted.bam
+/home/mamaher/tag_dirs/JA4	/mnt/oncogxA/Projects/CHENCS/bam/JA4.sorted.bam
+/home/mamaher/tag_dirs/JA5	/mnt/oncogxA/Projects/CHENCS/bam/JA5.sorted.bam
+/home/mamaher/tag_dirs/JA6	/mnt/oncogxA/Projects/CHENCS/bam/JA6.sorted.bam
+/home/mamaher/tag_dirs/JA7	/mnt/oncogxA/Projects/CHENCS/bam/JA7.sorted.bam
+/home/mamaher/tag_dirs/JA8	/mnt/oncogxA/Projects/CHENCS/bam/JA8.sorted.bam
+/home/mamaher/tag_dirs/JA9	/mnt/oncogxA/Projects/CHENCS/bam/JA9.sorted.bam
+/home/mamaher/tag_dirs/JA10	/mnt/oncogxA/Projects/CHENCS/bam/JA10.sorted.bam
+/home/mamaher/tag_dirs/JA11	/mnt/oncogxA/Projects/CHENCS/bam/JA11.sorted.bam
+/home/mamaher/tag_dirs/JA12	/mnt/oncogxA/Projects/CHENCS/bam/JA12.sorted.bam
+/home/mamaher/tag_dirs/JA13	/mnt/oncogxA/Projects/CHENCS/bam/JA13.sorted.bam
+/home/mamaher/tag_dirs/JA14	/mnt/oncogxA/Projects/CHENCS/bam/JA14.sorted.bam
+/home/mamaher/tag_dirs/JA15	/mnt/oncogxA/Projects/CHENCS/bam/JA15.sorted.bam
+/home/mamaher/tag_dirs/JA16	/mnt/oncogxA/Projects/CHENCS/bam/JA16.sorted.bam

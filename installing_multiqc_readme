@@ -1,0 +1,10 @@
+How to install multiqc on ubuntu vm
+
+install pkg-config using these directions
+http://www.linuxfromscratch.org/blfs/view/7.4/general/pkgconfig.html
+
+install freetype with
+sudo apt-get install libfreetype6-dev
+
+then
+sudo pip install multiqc
