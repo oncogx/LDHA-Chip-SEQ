@@ -4,9 +4,9 @@
 # instructions found here http://homer.salk.edu/homer/introduction/install.html
 
 # Make new folder for homer and install it
-mkdir homer_install
-mv configureHomer.pl homer_install/configureHomer.pl
-cd homer_install
+mkdir ~/homer_install
+mv configureHomer.pl ~/homer_install/configureHomer.pl
+cd ~/homer_install
 perl configureHomer.pl -install
 
 # modify .bash_profile so we can execute homer programs from
