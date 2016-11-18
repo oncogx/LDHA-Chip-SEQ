@@ -2,3 +2,4 @@ homer_install/**
 *.swp
 pkg-config*
 pkg-config*/
+*.swo
