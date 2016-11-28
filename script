@@ -1,0 +1,32 @@
+
+#BAM_PATH=/mnt/oncogxA/Projects/CHENCS/peak_graphs_lite_align/*
+BAM_PATH=/Volumes/oncogxA/Projects/CHENCS/peak_graphs_lite_align/*
+
+SKIP_FILE=/Volumes/oncogxA/Projects/CHENCS/peak_graphs_lite_align/JA1_peaks.bed
+
+
+#for i in $(seq 1 8)
+for file1 in $BAM_PATH
+do
+
+
+  for file2 in $BAM_PATH
+  do
+
+    # Do not use JA1_peaks b/c it didn't work well
+    # Skip contents if we are running overlaps on same file
+    if[$file1 -eq $SKIP_FILE]  || [$file2 -eq $SKIP_FILE]  || [$file1 -eq $file2] then
+      continue
+    fi
+
+
+    echo $file1
+    echo $file2
+
+
+  done
+  
+
+done
+
+#bedtools intersect -a A.bed -b B.bed -c

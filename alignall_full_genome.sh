@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ref=/mnt/idash/Genomics/data_resources/references-and-indexes/GRCh37/GRCh37-lite.fa
+ref=/mnt/idash/Genomics/data_resources/references-and-indexes/hg19/bwa/hg19.fa
 fastq=$1
 
 # remove .fastq.bz2 extension
