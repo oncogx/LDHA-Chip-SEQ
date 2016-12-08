@@ -1,0 +1,9 @@
+categorize peaks into 4 categories, kind of like filters
+1) Shared with all others
+2) Shared with either vehicle (OR)
+3) for file X
+	a) shared between treatments (eg. peak in IR that is in any of gh2ax)
+	b) shared with same treatment different target (eg. peak in IR-LDHA that is in IR-gh2ax)
+	c) same treatment $ !different treatment (singleton, peak in IR-LDHA but NOT in IR-h2ax)
+
+Sum these categories up and you should have #peaks

@@ -32,7 +32,7 @@ do
 
     echo $outpath
     echo
-    echo
+    echo "-------------------------------"
 
     #bedtools intersect -sorted -c -a $file1 -b $file2 > $outpath
   done
