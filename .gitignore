@@ -1,4 +1,5 @@
 homer_install/**
+docker_mnt/**
 *.swp
 pkg-config*
 pkg-config*/
