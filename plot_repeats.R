@@ -23,5 +23,15 @@ class.table$prop_reads = class.table$count / num.reads
 class.table$prop_class = class.table$count / sum(class.table$count)
 
 library(ggplot2)
-plot = ggplot(data = class.table, aes(x=factor(1), y=prop_class, fill=factor(class)))
-plot = plot + geom_bar(width = 1)
+plot = ggplot(data = class.table, aes(x=factor(1), y = prop_class, fill=class))
+plot = plot + geom_bar(stat = 'identity')
+plot
+
+plot2 = ggplot(data = class.table, aes(x=factor(1), y = prop_class, fill=class))
+plot2 = plot + geom_bar(stat = 'identity')
+plot2
+
+require(gridExtra)
+grid.arrange(plot, plot2,  
+             ncol = 2, top = "Categories of repeat classes", left = "count", bottom = "-log(p val)")
+# Remove ylabels, y axis labels, only have legend on last plot, only have y axis label on first plot?

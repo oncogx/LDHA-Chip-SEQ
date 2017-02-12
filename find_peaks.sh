@@ -27,6 +27,6 @@ do
 
   # Find peaks
   # Usage: findPeaks <tag directory> -style <factor | histone> -o auto -i <control tag directory>
-  findPeaks $exp_tag -style factor -o auto -i $ctrl_tag 
+  #findPeaks $exp_tag -style factor -o auto -i $ctrl_tag 
 
 done
